@@ -9,12 +9,46 @@
 <body>
   <form>
     <div>
+      <label for="tipoOperacao">Tipo Operação:</label>
+      <select id="tipoOperacao" name="tipoOperacao">
+        <option value="inclusao">Inclusão</option>
+        <option value="alteracao">Alteração</option>
+        <option value="exclusao">Exclusão</option>
+      </select>
+    </div>
+    <div>
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome">
     </div>
     <div>
       <label for="cpf">CPF:</label>
       <input type="text" id="cpf" name="cpf">
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+    </div>
+    <div>
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" name="telefone">
+    </div>
+    <div>
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco">
+    </div>
+    <div>
+      <label for="produto">Produto:</label>
+      <select id="produto" name="produto">
+        <option value="unimedNacional">Unimed Nacional</option>
+        <option value="unimedEnfermaria">Unimed Enfermaria</option>
+      </select>
+    </div>
+    <div>
+      <label for="tipoRelacionamento">Tipo Relacionamento:</label>
+      <select id="tipoRelacionamento" name="tipoRelacionamento">
+        <option value="titular">Titular</option>
+        <option value="dependente">Dependente</option>
+      </select>
     </div>
     <a href="/poc-itsseg/sucesso" class="btn">Enviar</a>
   </form>
